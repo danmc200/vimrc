@@ -6,3 +6,4 @@ set hls
 highlight Pmenu ctermbg=white ctermfg=black
 highlight PmenuSel ctermfg=yellow ctermbg=blue
 map <f2> :tabnew /etc/vim/vimrc.local <CR>
+noremap <f1> :NERDTreeToggle <CR>
