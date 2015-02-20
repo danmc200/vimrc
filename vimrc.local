@@ -3,6 +3,7 @@ set tabstop=4
 set expandtab
 set smarttab
 set hls
+set number
 highlight Pmenu ctermbg=white ctermfg=black
 highlight PmenuSel ctermfg=yellow ctermbg=blue
 map <f2> :tabnew /etc/vim/vimrc.local <CR>
