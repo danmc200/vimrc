@@ -5,9 +5,14 @@ set smarttab
 set hls
 set number
 
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 highlight Search cterm=NONE ctermfg=NONE ctermbg=darkblue
 highlight Pmenu ctermbg=white ctermfg=black
 highlight PmenuSel ctermfg=yellow ctermbg=blue
 
 map <f2> :tabnew /etc/vim/vimrc.local <CR>
 noremap <f1> :NERDTreeToggle <CR>
+
