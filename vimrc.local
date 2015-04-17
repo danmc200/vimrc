@@ -2,6 +2,7 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set smarttab
+
 set hls
 set number
 
@@ -13,6 +14,6 @@ highlight Search cterm=NONE ctermfg=NONE ctermbg=darkblue
 highlight Pmenu ctermbg=white ctermfg=black
 highlight PmenuSel ctermfg=yellow ctermbg=blue
 
+map <f3> :tabnew $HOME/.bashrc <CR>
 map <f2> :tabnew /etc/vim/vimrc.local <CR>
 noremap <f1> :NERDTreeToggle <CR>
-
