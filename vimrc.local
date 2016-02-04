@@ -16,4 +16,4 @@ highlight PmenuSel ctermfg=yellow ctermbg=blue
 
 map <f3> :tabnew $HOME/.bashrc <CR>
 map <f2> :tabnew /etc/vim/vimrc.local <CR>
-noremap <f1> :NERDTreeToggle <CR>
+map <f1> :NERDTreeToggle <CR>
